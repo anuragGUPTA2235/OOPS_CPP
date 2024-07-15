@@ -122,3 +122,8 @@ int main(){
 }
 ```
 # SETTER AND GETTER FUNCTION FOR PRIVATE ATTRIBUTES OF A CLASS
+Setter and getter functions (also known as mutator and accessor functions) are methods used to control access to the private attributes of a class. They are a fundamental part of encapsulation in object-oriented programming. Setters allow you to modify private variables, while getters allow you to retrieve their values.
+Why Use Setters and Getters?
+Encapsulation: Protect the internal state of the object.
+Validation: Perform checks or validation before modifying the value.
+Read-Only/Write-Only Access: Control how a class's attributes are accessed or modified.
