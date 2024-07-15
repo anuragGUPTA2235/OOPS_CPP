@@ -82,6 +82,8 @@ OOPS may not be the best choice for:
 - Situations where the additional complexity of OOPS does not justify its benefits.
 
 By weighing these advantages and disadvantages, developers can make informed decisions about when and how to use OOPS to best meet their project's needs.
+# ACCESS MODIFIERS
+![image](https://github.com/user-attachments/assets/9736d5b9-6780-42c9-9787-c91e31e28e8d)
 # CLASS OBJECT ATTRIBUTES METHODS ACCESS MODIFIERS
 ```
 #include<iostream>
