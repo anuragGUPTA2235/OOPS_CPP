@@ -180,6 +180,6 @@ int main(){
 we can access attributes inside a class easily, no matter, whether the attributes are private,public or protected. Generally we keep the attributes private and methods public to access these private attributes,and then ask for validation in these methods. Without public methods, since attributes are private, we cannot access from outside the class..
 # ENCAPSULATION
 Wrapping up attributes and methods in a single unit called class is encapsulation.<br/>
-making a class id itself an encapsulation.<br/>
+making a class id itself is an encapsulation.<br/>
 it helps in data hiding of sensitive information by using private and protected access modifiers.<br/>
 we cant access these sensitive info with . operator<br/>
