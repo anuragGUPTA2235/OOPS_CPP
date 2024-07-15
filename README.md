@@ -82,3 +82,40 @@ OOPS may not be the best choice for:
 - Situations where the additional complexity of OOPS does not justify its benefits.
 
 By weighing these advantages and disadvantages, developers can make informed decisions about when and how to use OOPS to best meet their project's needs.
+```
+#include<iostream>
+#include<string>
+using namespace std;
+
+class Teacher{
+    public:   // access modifiers
+    // attributes
+int srn;
+string name;
+float salary;
+string department;
+   // methods
+void change_dept(string dept)
+{
+    department = dept;
+}
+void show_details()
+{
+   cout<<srn<<" "<<name<<" "<<salary<<" "<<department<<endl;
+}
+};
+
+int main(){
+    // creating a object
+    Teacher t1;
+    t1.srn = 890;
+    t1.name = "neha";
+    t1.salary = 90000;
+    t1.department = "cse";
+    t1.show_details();
+    t1.change_dept("biotechnology");
+    t1.show_details();
+    return 0;
+}
+
+```
