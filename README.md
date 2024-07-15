@@ -120,5 +120,5 @@ int main(){
     t1.show_details();
     return 0;
 }
-
 ```
+# SETTER AND GETTER FUNCTION FOR PRIVATE ATTRIBUTES OF A CLASS
