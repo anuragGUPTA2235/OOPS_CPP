@@ -183,3 +183,5 @@ Wrapping up attributes and methods in a single unit called class is encapsulatio
 making a class id itself is an encapsulation.<br/>
 it helps in data hiding of sensitive information by using private and protected access modifiers.<br/>
 we cant access these sensitive info with . operator<br/>
+![image](https://github.com/user-attachments/assets/82ead325-ffbb-45c6-874e-047708b37be9)
+
