@@ -177,3 +177,4 @@ int main(){
     return 0;
 }
 ```
+we can access attributes inside a class easily, no matter, whether the attributes are private,public or protected. Generally we keep the attributes private and methods public to access these private attributes,and then ask for validation in these methods. Without public methods, since attributes are private, we cannot access from outside the class..
