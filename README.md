@@ -127,3 +127,53 @@ Why Use Setters and Getters?<BR/>
 Encapsulation: Protect the internal state of the object.<BR/>
 Validation: Perform checks or validation before modifying the value.<BR/>
 Read-Only/Write-Only Access: Control how a class's attributes are accessed or modified.<BR/>
+```
+#include<iostream>
+#include<string>
+using namespace std;
+
+class Teacher{
+    private:   // access modifiers
+    // attributes
+int srn;
+string name;
+float salary;
+string department;
+   // methods
+   public:
+
+void setter(int new_srn,string newname,float newsalary,string newdepartment,int key)
+{
+    if(key == 2235){
+        cout<<"access granted"<<endl;
+        srn = new_srn;
+        name = newname;
+        salary = newsalary;
+        department = newdepartment;
+    }
+    else{
+        cout<<"access denied"<<endl;
+    }
+
+}
+void getter()
+{
+   cout<<srn<<" "<<name<<" "<<salary<<" "<<department<<endl;
+}
+void change_dept(string dept)
+{
+    department = dept;
+}
+};
+
+int main(){
+    // creating a object
+    Teacher t1;
+    t1.setter(4567,"uday",78000,"bio",2235);
+    t1.getter();
+    t1.change_dept("civil");
+    t1.getter();
+
+    return 0;
+}
+```
