@@ -187,6 +187,7 @@ we cant access these sensitive info with . operator<br/>
 If you want to access them u have to define public methods inside that class.
 # CONSTRUCTOR
 ![image](https://github.com/user-attachments/assets/039b70bf-3fba-42e1-9364-b36df2ab7af4)
-![image](https://github.com/user-attachments/assets/82e6099d-a3f3-4522-b3cd-5e93b83cd0c2)
+![image](https://github.com/user-attachments/assets/1cdd1662-92aa-4633-94f8-8b6c6e061303)
+
 
 
