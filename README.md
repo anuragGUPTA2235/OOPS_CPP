@@ -193,6 +193,7 @@ A parameterized constructor is a constructor that takes one or more arguments to
 ## DEFAULT CONSTRUCTOR
 ### Compiler provided
 ![image](https://github.com/user-attachments/assets/8e8fb701-20e6-48bb-98f9-ad0893325864)
+Attributes wil be empty 
 ### User defined
 ![image](https://github.com/user-attachments/assets/01b8c126-b082-4f58-9f99-2d93f7fec0a8)
 ## COPY CONSTRUCTOR
